@@ -1,0 +1,37 @@
+{
+  "name": "nnn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node lib/compute-rarity && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "dependencies": {
+    "@tailwindcss/custom-forms": "0.2.1",
+    "@tailwindcss/typography": "0.4.1",
+    "@tailwindcss/ui": "0.7.2",
+    "discord-api-types": "0.23.1",
+    "discord-interactions": "2.3.0",
+    "fs": "0.0.1-security",
+    "next": "11.1.2",
+    "next-themes": "0.0.15",
+    "raw-body": "2.4.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "7.0.1",
+    "react-modal": "3.14.3",
+    "tailwindcss": "2.2.15"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-modal": "3.12.1",
+    "autoprefixer": "10.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "8.3.6",
+    "typescript": "4.4.3"
+  }
+}

@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+coverage
+public
+.vscode
+node_modules
+yarn.lock
+.eslintrc.js
+.editorconfig
+README.md
+LICENSE
+craco.config.js

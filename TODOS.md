@@ -1,0 +1,25 @@
+## TODOS
+- [x] Calculate Rarity on build and store on the filesystem
+  - [x]  Take all metadata items and analyse their attributes.
+  - [x]  Derive a rarity score for each attribute of each NFT item. Example: Property "Type", Attribute "Ape"; 24 of 10000 have this attribute/property combination; rarity_score = 1/(24/10000) = 416.67
+  - [x]  Derive a rarity score for each NFT in the collection. The rarity score for each NFT is the sum of all attributes.
+  - [x]  Account for missing trait_types of an NFT.
+  - [x]  Account for the trait_count of an NFT.
+  - [x]  Calculate the Rarity Score for each token (SUM of all rare trait attributes / missing traits / trait counts).
+  - [x]  Compute and store a collection-rarities.json file which can be exported for use elsewhere for the given collection.
+- [x] Rarity Site
+  - [x] Serve collection list with pagination with static build for perf
+  - [x] Allow collection token filtering 
+  - [x] View token page with extended information
+  - [x] Build from environment variables
+    - [x] Collection logo, name, favicon and description
+    - [ ] Opensea collection uri
+  - [x] Support dark and light theme
+  - [ ] Add GA support
+  - [ ] Add documentation for configuration options in README/wiki
+- [ ] Rarity Bot
+  - [x] Discord bot related ENV
+  - [ ] Discord bot support application command
+  - [ ] Respond to a web-hook push with rarity metadata
+  - [ ] Documentation
+
