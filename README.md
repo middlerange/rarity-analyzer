@@ -12,7 +12,7 @@
 
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <ul>
-    <li><a href="#what-is-this-repo">What is this repo?</a></li>
+    <li><a href="#overview">Overview</a></li>
     <li><a href="#how-do-i-generate-for-my-collection">How do I generate for my collection?</a></li>
     <li><a href="#setup-the-bot">Setup the discord bot</a></li>
     <li><a href="#developing">Developing</a></li>
@@ -21,7 +21,7 @@
 </ul>
 
 
-## What is this repo?
+## Overview
 
 Rarity Analyzer from the [PunkScapes](https://punkscape.com/) community is an open source solution for generating the rarity site and a discord bot of your collections on ERC-721 standard.
 
