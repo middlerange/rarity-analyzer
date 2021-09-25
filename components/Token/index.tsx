@@ -1,5 +1,6 @@
 import * as React from 'react';
 import ReactMarkdown from 'react-markdown';
+import { getTokenImageLink } from '../../utils/image';
 import { CloseIcon } from '../Icons';
 import MarketPlaceLinks from './MarketPlaceLink';
 
@@ -37,7 +38,7 @@ const Token = ({ token, traits, meta, isPage, close }: any) => {
 									Rarity Rank #{token.rank}
 								</h2> */}
                 <img
-                  src={`https://ipfs.io/ipfs/${token.image.substring(7)}`}
+                  src={getTokenImageLink(token.image)}
                   alt={token.name}
                   style={{
                     minHeight: '340px',

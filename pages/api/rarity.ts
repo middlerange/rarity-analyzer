@@ -8,6 +8,7 @@ import {
 } from 'discord-interactions';
 import { rarityStore } from '../../helpers/rarity';
 import { capitalizeFirstLetter } from '../../utils/string';
+import { getTokenImageLink } from '../../utils/image';
 
 const { APPLICATION_ID, TOKEN, NEXT_PUBLIC_SITENAME }: any = process.env;
 
@@ -124,12 +125,11 @@ ${trait.value || '<none>'}    (${trait.rarity_score})\n`
   )
   .join('')}
 
-[](https://ipfs.io/ipfs/${rarity.image.substring(7)})
+	[](${getTokenImageLink(rarity.image)})
 `
                 : null
             }
           });
-
           break;
         default:
           console.error('Unknown Command');
