@@ -43,6 +43,7 @@ Before you generate your rarity site, Ready your collections data (ERC-721 forma
 5. Press `Deploy` below and select the repo or if local run `npx vercel --prod`.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
+[![Deploy to PandaStack](https://dashboard.pandastack.io/deploy-button.svg)](https://dashboard.pandastack.io/deploy?repo=middlerange/rarity-analyzer&type=static&buildCmd=npm+run+build&outputDir=dist)
 
 **NOTE:** A [comprehensive guide](./SETUP.md) about will be added soon.
 
